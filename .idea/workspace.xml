@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7836b9-5d21-4ee3-abba-2228ba2b63f4" name="Default Changelist" comment="" />
+    <list default="true" id="cc7836b9-5d21-4ee3-abba-2228ba2b63f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/MarkdownHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/MarkdownHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/MarkdownHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/MarkdownHolder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,22 +34,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MarkdownBBCode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fCywmCUXx4FKONySTik9LpJDZx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -80,34 +98,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Project_Structure" timestamp="1595736645815">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1595845475503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1595736645815" />
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1595845475503" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1595829500225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1595829500225" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595819234597">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595845180862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1595819234597" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1595836978960">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1595845180862" />
+    <state width="1237" height="60" key="GridCell.Tab.0.bottom" timestamp="1595855988886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595836978960" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1595836978960">
+    <state width="1237" height="60" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
+    <state width="1237" height="60" key="GridCell.Tab.0.center" timestamp="1595855988886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595836978960" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1595836978960">
+    <state width="1237" height="60" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
+    <state width="1237" height="60" key="GridCell.Tab.0.left" timestamp="1595855988885">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595836978960" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1595836978960">
+    <state width="1237" height="60" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595855988885" />
+    <state width="1237" height="60" key="GridCell.Tab.0.right" timestamp="1595855988886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595836978960" />
+    <state width="1237" height="60" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1595740511009">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

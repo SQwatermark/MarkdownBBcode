@@ -19,7 +19,7 @@ public class MarkdownHolder {
     public MarkdownHolder(File file) {
         lines = new ArrayList<>();
         path = file.getAbsolutePath();
-        name = file.getName();
+        name = file.getName().replace(".md", "");
         // 读取文件
         try {
             InputStreamReader reader = new InputStreamReader(
