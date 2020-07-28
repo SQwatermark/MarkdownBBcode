@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MarkdownBBcode.main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7836b9-5d21-4ee3-abba-2228ba2b63f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MarkdownBBcode_main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,12 +19,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/BBdown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/MarkdownHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/moe/sqwatermark/bbdown/MarkdownHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/BBdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/MarkdownHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/MarkdownHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/objects/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moe/sqwatermark/bbdown/objects/BaseObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +41,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,17 +78,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Developing\projects\MarkdownBBcode\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MarkdownBBcode [build]">
     <configuration name="BBdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="moe.sqwatermark.bbdown.BBdown" />
       <module name="MarkdownBBcode.main" />
@@ -78,6 +104,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MarkdownBBcode [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BBdown" />
+      <item itemvalue="Gradle.MarkdownBBcode [build]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BBdown" />
@@ -102,37 +151,53 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1595845475503" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595857232259">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1595857232259" />
+    <state x="383" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595911979983">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="383" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1595911979983" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1595829500225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1595829500225" />
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595856941360">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1595856941360" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595845180862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1595845180862" />
-    <state width="1237" height="60" key="GridCell.Tab.0.bottom" timestamp="1595855988886">
+    <state width="1237" height="72" key="GridCell.Tab.0.bottom" timestamp="1595901585674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="60" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
-    <state width="1237" height="60" key="GridCell.Tab.0.center" timestamp="1595855988886">
+    <state width="1237" height="72" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595901585674" />
+    <state width="1237" height="72" key="GridCell.Tab.0.center" timestamp="1595901585674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="60" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
-    <state width="1237" height="60" key="GridCell.Tab.0.left" timestamp="1595855988885">
+    <state width="1237" height="72" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595901585674" />
+    <state width="1237" height="72" key="GridCell.Tab.0.left" timestamp="1595901585674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="60" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595855988885" />
-    <state width="1237" height="60" key="GridCell.Tab.0.right" timestamp="1595855988886">
+    <state width="1237" height="72" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595901585674" />
+    <state width="1237" height="72" key="GridCell.Tab.0.right" timestamp="1595901585674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="60" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595855988886" />
+    <state width="1237" height="72" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595901585674" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1595859660433">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1595859660433" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1595740511009">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1595740511009" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1595818410155">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1595911871032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1595818410155" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1595911871032" />
   </component>
 </project>
