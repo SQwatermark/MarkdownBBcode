@@ -13,6 +13,7 @@ public abstract class BaseObject extends ArrayList<Character> {
 
     public abstract String generateBBCode();
 
+    //TODO
     public abstract Pattern getPattern();
 
     public void setFinished() {

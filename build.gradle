@@ -2,18 +2,31 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'moe.sqwatermark'
+version 'beta-0.0.2'
 
 sourceCompatibility = 1.8
 
+apply plugin: 'application' // 引入java插件，
+
 repositories {
-    mavenCentral()
+    flatDir {
+        // 先看下build.gradle文件所在目录下的 libs目录中有没有
+        dirs 'libs'
+    }
+    maven {
+        //如果目录中木有，则找url对应的maven仓库，下面是阿里的maven仓库，速度杠杆的。
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
+    //mavenCentral()    //如果都木有，则取maven的官方仓库吧，只是这个速度要看人品
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    // 我们代码里需要用到的jar，可以引入不用，但是用了必须引入。
 }
+
+mainClassName = 'moe.sqwatermark.bbdown.BBdown'
 
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"

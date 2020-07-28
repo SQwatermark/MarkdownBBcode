@@ -1,11 +1,11 @@
 package moe.sqwatermark.bbdown;
 
-
 import moe.sqwatermark.bbdown.blocks.*;
 
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
+//TODO 拆分这个特长的类
 /**
  * 包装一个用于mcbbs的bbcode文本文件
  */
@@ -29,7 +29,7 @@ public class BBHolder {
         this.markdown = markdownInput;
         this.path = markdownInput.path + ".bbcode";
         this.setTitle();
-        this.subtitle = markdownInput.name;
+        this.subtitle = markdownInput.name.replace("-", " ").replace("_", " ");
         this.blocks = new ArrayList<>();
         this.lines = new StringBuilder();
         this.titleBlock = new StringBuilder();
@@ -84,10 +84,10 @@ public class BBHolder {
         mainBlock.append("[table]").append("\n");
         mainBlock.append("[tr=").append(colorMainBackground).append("][td][align=center][table]").append("\n");
         mainBlock.append("[tr=").append(colorMainForeground).append("][td]");
-        mainBlock.append(mainBody).append("\n");
+        mainBlock.append(mainBody);
         mainBlock.append("[/td][/tr]").append("\n");
         mainBlock.append("[/table][/align][/td][/tr]").append("\n");
-        mainBlock.append("[/table]").append("\n");
+        mainBlock.append("[/table]");
     }
 
     public void generateMainBody() {
