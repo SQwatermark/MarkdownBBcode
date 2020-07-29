@@ -9,7 +9,7 @@ public class BlockTip extends BaseBlock {
     public String generateBBCode() {
         StringBuilder s = new StringBuilder();
         String prefix = this.get(0).replace("::: tip", "").trim();
-        if (prefix.isEmpty()) prefix = "提示：";
+        if (prefix.isEmpty()) prefix = "提示";
         s.append("[color=#2e8b57]");
         s.append("[size=3][b]").append(prefix).append("：").append("[/b][/size]");
         for (int i = 1; i < this.size()-1; i++) {

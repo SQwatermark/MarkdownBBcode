@@ -35,3 +35,4 @@ public class BBdown {
                                                                             //TODO 配置文件
                                                                             //TODO 检查文件夹内所有md文件
                                                                             //TODO 自动上传图片到sm.ms
+                                                                            //TODO 合并多文件并添加分页符和目录

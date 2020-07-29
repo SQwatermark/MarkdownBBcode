@@ -9,7 +9,7 @@ public class BlockWarning extends BaseBlock {
     public String generateBBCode() {
         StringBuilder s = new StringBuilder();
         String prefix = this.get(0).replace("::: warning", "").trim();
-        if (prefix.isEmpty()) prefix = "注意：";
+        if (prefix.isEmpty()) prefix = "注意";
         s.append("[color=#8b0000]");
         s.append("[size=3][b]").append(prefix).append("：").append("[/b][/size]");
         for (int i = 1; i < this.size()-1; i++) {
